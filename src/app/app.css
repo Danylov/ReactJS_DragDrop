@@ -1,0 +1,74 @@
+.AppDragDropDemo {
+  text-align: center;
+  width: 95%;
+  margin: 15px auto;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+}
+
+#textarea {
+  min-width: 900px;
+  word-break: break-all;
+  cursor: text;
+  background-color:rgba(132, 225, 132, 0.9);
+  border: 1px solid black;
+}
+
+.container-drag {
+  text-align: center;
+}
+
+.header {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: #E0E0E0;
+  width:100%;
+}
+
+.task-header {
+  display: inline-block;
+  background-color: skyblue;
+  width:100%;
+}
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 5px auto;
+  line-height: 5em;
+}
+
+.inits {
+  position: absolute;
+  width: 20%;
+  height: 95%;
+  left: 0;
+  top: 4%;
+  background-color: #EEEEEE;
+  border-right: 1px dotted;
+}
+
+.dropped {
+  position: absolute;
+  width: 80%;
+  height: 95%;
+  right: 0;
+  top: 4%;
+  background-color: #9E9E9E;
+  border-left: 1px dotted;
+}
+
+#inp {
+  position: absolute;
+  top: 8%;
+  line-height: 22px;
+  height: 22px;
+  width: 80px;
+  cursor: default;
+}
+
